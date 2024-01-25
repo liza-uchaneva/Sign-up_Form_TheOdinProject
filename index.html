@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = content>
+        <div class = picSide>
+            <div class = logo>
+                <img src = "pic/logo.png" alt = "logo-pic" id = "logo-pic">
+                <p>ODIN</p>
+            </div>
+            <p id="photo-by">Photo by <a href="https://unsplash.com/@kharp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Harp</a> on <a href="https://unsplash.com/photos/Rel6bBC6AuA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+        </div>
+        <div class = formSide>
+            <div class = titleBox>
+                <b><p>This is not a real online service! You know you need something like this in your life, to help you realize your deepest dreams.<br>
+                Sign up <i>now</i> to get started.</p>
+                <p>You <i>know</i> you want to</p></b>
+            </div>
+            <div class = formBox>
+                <p><b>Let's do this!</b></p>
+                <div class = form>
+                    <ul>
+                        <label for ="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="fname" placeholder=" "><br><br>
+                        <label for ="email">EMAIL</label>
+                        <input type="text" id="email" name="email" placeholder=" "><br><br>
+                        <label for ="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" placeholder=" "><br><br>
+                        <p2 id="pass-error"></p2>
+                    </ul>
+                    <ul>
+                        <label for ="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="lname" placeholder=" " pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12"><br><br>
+                        <label for ="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone" placeholder=" "><br><br>
+                        <label for ="cpassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="cpassword" name="confpassword" placeholder=" "><br><br>
+                    </ul>
+                </div>
+            </div>
+            <div class = createBox>
+                <button tipe ="submit" id = "submit">Create Account</button>
+                <p1>Already have an account? <a><b>Log in</b></a></p1>
+            </div>
+        </div>
+    </div>
+    <script language="JavaScript" type="text/javascript" src="script.js"></script>
+</body>
+</html>
